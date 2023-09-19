@@ -1,7 +1,6 @@
-from flask import Flask, render_template, request, send_file
+from flask import Flask, render_template, request, send_file, send_from_directory
 import os
 import subprocess
-from flask import send_from_directory
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
